@@ -16,7 +16,8 @@ public class HelloApplication {
         int numberB=readOther.nextInt();
         int sum= numberB + numberA;
         System.out.println("Result of sum is: " + sum);
-        double division = (double) numberA / numberB;
+        double division;
+        division= (double) numberA / numberB;
         System.out.println("Result: " + division);
     }
 }
